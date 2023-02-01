@@ -5,12 +5,9 @@
     font-family: 'Itim', sans-serif;
 }
 
-h2 {
+h2, h3 {
     border: solid black;
-}
-
-h3 {
-    border: solid black;
+    background-color: beige;
 }
 
 .main-content {
@@ -47,6 +44,11 @@ h3 {
     text-align: center;
 }
 
+.feature1, .feature2{
+    background-color: rgb(204, 134, 30);
+    text-align: center;
+}
+
 
 @media screen and (min-width:30em) {
     .navigation {
@@ -76,5 +78,11 @@ h3 {
         width: 50%;
         margin-left: 10em;
         text-align: left;
+    }
+
+    .feature1 .feature2{
+       margin: 0 0 1em 0;
+       width: 50%;
+       text-align: center;
     }
 }
