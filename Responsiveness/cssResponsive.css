@@ -49,14 +49,13 @@ h2, h3 {
     text-align: center;
 }
 
-
+/*#region mediaQuerys*/
 @media screen and (min-width:30em) {
     .navigation {
         display: flex;
     }
 }
 
-/*#region mediaQuerys*/
 @media screen and (min-width: 37.5em) {
     .main-content {
         width: 90%;
