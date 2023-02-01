@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
-.body {
+body {
     background-color: rgb(16, 57, 93);
     font-family: 'Itim', sans-serif;
 }
@@ -56,10 +56,15 @@ h2, h3 {
     }
 }
 
+/*#region mediaQuerys*/
 @media screen and (min-width: 37.5em) {
     .main-content {
         width: 90%;
         margin: 0 auto;
+    }
+
+    body{
+        margin-top: 1em;
     }
 
     h2{
@@ -76,13 +81,12 @@ h2, h3 {
 
     h1{
         width: 50%;
-        margin-left: 10em;
         text-align: left;
     }
 
     .feature1 .feature2{
-       margin: 0 0 1em 0;
        width: 50%;
        text-align: center;
     }
 }
+/*#endregion*/
