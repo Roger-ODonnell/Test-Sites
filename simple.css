@@ -1,0 +1,23 @@
+footer{
+    background-color: antiquewhite;
+    font-weight: bold;
+    text-decoration: solid;
+    position: relative;
+    margin-left: 50em;
+    width: 15em;
+    border: solid black .2em;
+    margin-top: 2em;
+}
+
+.page-container{
+    background-color: antiquewhite;
+    border: solid black .2em;
+    height: 50em;
+}
+
+.mainHeader{
+    margin-left: 26em;
+    background-color: aliceblue;
+    width: 3.7em;
+    border: solid black .1em;
+}

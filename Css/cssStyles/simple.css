@@ -1,0 +1,43 @@
+p.firstParagraph {
+    color: rgb(230, 142, 0);
+    background-color: bisque;
+    width: 400px;
+    border-radius: .2em;
+    border-style: solid;
+    border-color: rgb(45, 118, 77);
+}
+
+#para2{
+background-color: rgb(137, 141, 31);
+height: 100px;
+}
+
+p{
+    width: 1000px;
+    border-radius: .2em;
+    font-weight: bold;
+    font-style: italic;
+    border-style: dotted;
+    background-color: blanchedalmond;
+    border-color: crimson;
+    text-align: center;
+}
+
+h1.header{
+    width: 300px;
+    border-radius: .2em;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+h2{
+    background-color: chocolate;
+    width: 500px;
+    font-weight: bold;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(168, 193, 157);
+    text-align: center;
+}
